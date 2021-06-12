@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>
-    1461900077_KEGIATAN4_P
+    1461900077_KEGIATAN4_PAGI
   </title>
   <link rel="stylesheet" href="{{asset('css/app.css')}}" />
 </head>
@@ -33,8 +33,8 @@
       }
       
   </style>
-      <h1>Tugas : JOIN from Buku dan Jenis_Buku</h1>
-        <a href="/buku/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
+      <h1>Tugas: JOIN from Buku dan Jenis_Buku</h1>
+        <a href="/buku0077/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
         <br>
       <table class="w-full text-left rounded-lg">
         <thead>
