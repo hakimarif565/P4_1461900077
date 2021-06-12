@@ -31,6 +31,7 @@
         padding: 8px 16px ;
         text-decoration: none;
       }
+      
   </style>
       <h1>Tugas : JOIN from Buku dan Jenis_Buku</h1>
         <a href="/buku/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>

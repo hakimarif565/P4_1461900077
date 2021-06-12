@@ -26,7 +26,7 @@ class BukuController extends Controller
     }
     public function export_excel()
 	{
-		return Excel::download(new BukuExport, 'Buku.xlsx');
+		return Excel::download(new BukuExport, 'Data_1461900077.xlsx');
 	}
 
     /**
