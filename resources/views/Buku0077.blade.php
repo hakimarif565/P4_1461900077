@@ -11,8 +11,30 @@
 <body>
   <div class="bg-white rounded-lg shadow-lg py-6">
     <div class="block overflow-x-auto mx-6">
+        
+<style>
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+      thead {
+        background-color: #f2f2f2;
+      }
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+      tr:nth-child(even) { background-color: #f2f2f2}
+      .tambah {
+        padding: 8px 16px ;
+        text-decoration: none;
+      }
+  </style>
       <h1>Tugas : JOIN from Buku dan Jenis_Buku</h1>
         <a href="/buku/export_excel" class="btn btn-success my-3" target="_blank">EXPORT EXCEL</a>
+        <br>
       <table class="w-full text-left rounded-lg">
         <thead>
           <tr class="text-gray-800 border border-b-0">
@@ -30,8 +52,6 @@
             <td class="px-4 py-4">{{ $buku->tahun_terbit }}</td>
             <td class="px-4 py-4">{{ $buku->jenis }}</td>
             <td class="text-center py-4">
-              <a href="#"><span class="fill-current text-green-500 material-icons">Edit</span></a> !
-              <a href="#"><span class="fill-current text-red-500 material-icons">Hapus</span></a>
             </td>
           </tr>
         @endforeach
